@@ -208,3 +208,15 @@ nav .nav_items ul li:hover {
 }
 
 /* ======portfolio css end here==== */
+/* ======logo css starts here==== */
+#logo {
+  margin: 100px 0;
+}
+#logo .sidebyside {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  column-gap: 33px;
+}
+
+/* ======logo css end here==== */
