@@ -169,3 +169,42 @@ nav .nav_items ul li:hover {
   line-height: 26px;
 }
 /* ======about css end here==== */
+/* ======portfolio  css starts here==== */
+#portfolio {
+  margin-top: 150px;
+}
+#portfolio .content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  column-gap: 53px;
+  margin-bottom: 70px;
+}
+#portfolio .content ul {
+  display: contents;
+  color: #838383;
+  font-family: var(--Montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+#portfolio .content ul li:hover {
+  color: #8671fc;
+}
+#portfolio .sidebyside {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+#portfolio .item {
+  width: 370px;
+  height: 334px;
+  background: #cecece;
+  overflow: hidden;
+}
+
+/* ======portfolio css end here==== */
