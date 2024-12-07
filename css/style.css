@@ -45,3 +45,37 @@ body {
 }
 /* ======comon css end here==== */
 
+/* ======navber css starts here==== */
+nav {
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+nav .sidebyside {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+nav .logo {
+  width: 126px;
+}
+nav .nav_items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: end;
+  column-gap: 45.5px;
+}
+nav .nav_items ul {
+  display: contents;
+  color: #838383;
+  font-family: var(--Montserrat);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all linear.4s;
+}
+nav .nav_items ul li:hover {
+  color: #8671fc;
+}
+/* ======navber css end here==== */
