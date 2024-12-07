@@ -45,3 +45,178 @@ body {
 }
 /* ======comon css end here==== */
 
+/* ======navber css starts here==== */
+nav {
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+nav .sidebyside {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+nav .logo {
+  width: 126px;
+}
+nav .nav_items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: end;
+  column-gap: 45.5px;
+}
+nav .nav_items ul {
+  display: contents;
+  color: #838383;
+  font-family: var(--Montserrat);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all linear.4s;
+}
+nav .nav_items ul li:hover {
+  color: #8671fc;
+}
+/* ======navber css end here==== */
+/* ======about css starts here==== */
+#about {
+  background: url(../images/about.png) no-repeat center;
+  background-size: cover;
+  padding: 150px 0;
+}
+#about .sidebyside {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  column-gap: 89px;
+}
+#about .left {
+  justify-self: end;
+}
+#about .left h4 {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+#about .left h2 {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  margin-bottom: 30px;
+  max-width: 540px;
+}
+#about .left p {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.2px;
+  max-width: 500px;
+  margin-bottom: 70px;
+}
+#about .left a {
+  display: inline-block;
+  color: #fff;
+  text-align: right;
+  font-family: var(--Raleway);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#about .right h2 {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  max-width: 360px;
+  margin-bottom: 30px;
+}
+#about .right p {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  max-width: 421px;
+  margin-bottom: 30px;
+}
+#about .right a {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+/* ======about css end here==== */
+/* ======portfolio  css starts here==== */
+#portfolio {
+  margin-top: 150px;
+}
+#portfolio .content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  column-gap: 53px;
+  margin-bottom: 70px;
+}
+#portfolio .content ul {
+  display: contents;
+  color: #838383;
+  font-family: var(--Montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+#portfolio .content ul li:hover {
+  color: #8671fc;
+}
+#portfolio .sidebyside {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+#portfolio .item {
+  width: 370px;
+  height: 334px;
+  background: #cecece;
+  overflow: hidden;
+}
+
+/* ======portfolio css end here==== */
+/* ======logo css starts here==== */
+#logo {
+  margin: 100px 0;
+}
+#logo .sidebyside {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  column-gap: 33px;
+}
+
+/* ======logo css end here==== */
